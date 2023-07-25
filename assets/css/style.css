@@ -4,20 +4,38 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #d444c1;
+    background-color: #84045e;
+    color: #e69ad0;
     padding: 10px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topnav {
+    background-color: #84045e;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: end;
+}
+
+.topnav input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
 }
 
 nav {
-    background-color: #d444c1;
+    background-color: #e17fb0;
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: #d444c1;
+    color: #fcf9f9;
     text-decoration: none;
     margin: 0 10px;
 }
