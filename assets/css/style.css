@@ -137,10 +137,9 @@ h2 {
     align-items: flex-start; /* Align items at the top */
   }
   
-  /* Style for the text column */
-  .text-column {
-    /* Add any additional styling for the text column */
-  }
+
+
+  
   
   /* Style for the image column */
   .image-column {
@@ -153,8 +152,51 @@ h2 {
     display: block;
   }
   
+  /* editing the classes section */
+  /* styles.css */
 
-  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+
+ 
 footer {
     background-color: #84045e;
     color: #f5f0f3;
