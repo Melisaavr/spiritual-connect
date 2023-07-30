@@ -131,29 +131,30 @@ h2 {
   
   /* Style for the content container */
   .content {
-    margin-bottom: 20px; /* Add spacing between content sections */
-    display: flex; /* Use flexbox to display text and image side by side */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Gap between the columns */
     align-items: flex-start; /* Align items at the top */
   }
   
-  /* Style for the images */
-  .image-container {
-    flex-shrink: 0; /* Prevent the image from shrinking to fit */
-    margin-left: 20px; /* Add spacing between the text and image */
-    max-width: 300px; /* Limit the width of the images */
-    height: 200px; /* Set the height of the image container */
-    background-color: #f2f2f2; /* Add a background color for better visibility */
-    overflow: hidden; /* Hide any overflowing image content */
+  /* Style for the text column */
+  .text-column {
+    /* Add any additional styling for the text column */
   }
   
-  .image-container img {
+  /* Style for the image column */
+  .image-column {
+    max-width: 300px; /* Limit the width of the images */
+  }
+  
+  .image-column img {
     width: 100%;
     height: auto;
     display: block;
   }
   
 
-
+  
 footer {
     background-color: #84045e;
     color: #f5f0f3;
