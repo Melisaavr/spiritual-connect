@@ -1,181 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Edu+SA+Beginner&display=swap');
-
-html {
-    scroll-behavior: smooth;
-}
-
-/* Reset default margin and padding for all elements */
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-body {
-    line-height: 1.6;
-}
-
-/* Center the content within the viewport */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     background-color: #f9f9f9;
-}
-
-/* header */
-header {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Header styles */
+  header {
     text-align: center;
     padding: 20px;
     background-color: #84045e;
     color: #fff;
     border-radius: 8px 8px 0 0;
-    font-family: cinzel, sans-serif;
-
-}
-
-/* Styles the navigation links */
-nav {
+    font-family: 'Cinzel', sans-serif;
+  }
+  
+  /* Navigation styles */
+  nav {
     background-color: #84045e;
     padding: 10px;
     text-align: center;
     border-radius: 0 0 8px 8px;
-}
-
-nav a {
+  }
+  
+  nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
     font-size: 18px;
-
-}
-
-/* Styles the sections */
-section {
-    padding: 50px;
-    text-align: center;
-}
-
-section:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-/* Add spacing between the sections */
-section:not(:first-child) {
-    margin-top: 20px;
-}
-
-nav a:hover {
+  }
+  
+  nav a:hover {
     text-decoration: underline;
-}
-
-
-
-/* Center the content within the viewport */
-main {
+  }
+  
+  /* Main content styles */
+  main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #d89abd;
-    font-family: edu sa beginner;
-
-}
-
-/* Style sections */
-section {
+    font-family: 'Edu SA Beginner', sans-serif;
+  }
+  
+  /* Section styles */
+  section {
     max-width: 800px;
     margin: 20px;
     padding: 30px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-}
-
-
-
-section h2 {
+  }
+  
+  section h2 {
     font-size: 30px;
     margin-bottom: 20px;
-}
-
-section p {
+  }
+  
+  section p {
     font-size: 20px;
     margin-bottom: 10px;
-}
+  }
 
-/* Add spacing between sections */
-section:not(:first-child) {
-    margin-top: 40px;
-}
-
-/* Global styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #d662af;
-    color: #333;
-}
-
-h2 {
-    text-align: center;
-}
-
-/* Add Images to get started */
-/* Style for the section container */
-#get-started {
-    max-width: 800px;
-    /* Adjust as needed */
-    margin: 0 auto;
-    /* Center the section horizontally */
-}
-
-/* Style for the content container */
-.content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* Two equal columns */
-    gap: 20px;
-    /* Gap between the columns */
-    align-items: flex-start;
-    /* Align items at the top */
-}
-
-
-
-
-
-/* Style for the image column */
-.image-column {
-    max-width: 300px;
-    /* Limit the width of the images */
-}
-
-.image-column img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* editing the classes section */
-/* styles.css */
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
+  /*table styles*/
+  h1 {
     text-align: center;
     margin-top: 20px;
 }
@@ -189,8 +88,7 @@ table {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-th,
-td {
+th, td {
     border: 1px solid #ccc;
     text-align: center;
     padding: 10px;
@@ -208,28 +106,28 @@ tr:hover {
 td:first-child {
     font-weight: bold;
 }
-
-/*style the contact us section*/
-form {
+  
+  /* Contact form styles */
+  form {
     max-width: 400px;
     margin: 0 auto;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
-
-textarea {
+  }
+  
+  textarea {
     resize: vertical;
-}
-
-input[type="submit"] {
+  }
+  
+  input[type="submit"] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -237,16 +135,51 @@ input[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     float: right;
-}
-
-input[type="submit"]:hover {
+  }
+  
+  input[type="submit"]:hover {
     background-color: #45a049;
-}
-
-
-footer {
+  }
+  
+  /* Footer styles */
+  footer {
     background-color: #84045e;
     color: #fff;
     padding: 10px;
     text-align: center;
-}
+  }
+  
+  /* Media queries */
+  
+  /* Small screens (e.g., mobile devices) */
+  @media (max-width: 767px) {
+    header {
+      font-size: 24px;
+      font-family: cinzel, sans-serif;
+    }
+    section {
+      padding: 20px;
+      margin: 10px;
+    }
+  }
+  
+  /* Medium screens (e.g., tablets) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    header {
+      font-size: 30px;
+    }
+    section {
+      padding: 40px;
+    }
+  }
+  
+  /* Large screens (e.g., desktops) */
+  @media (min-width: 1024px) {
+    header {
+      font-size: 36px;
+    }
+    section {
+      padding: 50px;
+    }
+  }
+  
