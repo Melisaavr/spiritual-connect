@@ -70,7 +70,6 @@ nav a:hover {
 
 
 
-
 /* Center the content within the viewport */
 main {
     display: flex;
@@ -80,7 +79,7 @@ main {
     min-height: 100vh;
     background-color: #f9f9f9;
     font-family: edu sa beginner;
-    
+
 }
 
 /* Style sections */
@@ -93,8 +92,10 @@ section {
     border-radius: 8px;
 }
 
+
+
 section h2 {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
@@ -108,7 +109,49 @@ section:not(:first-child) {
     margin-top: 40px;
 }
 
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d662af;
+    color: #333;
+}
 
+h2 {
+    text-align: center;
+}
+
+/* Add Images to get started */
+/* Style for the section container */
+#get-started {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the section horizontally */
+  }
+  
+  /* Style for the content container */
+  .content {
+    margin-bottom: 20px; /* Add spacing between content sections */
+    display: flex; /* Use flexbox to display text and image side by side */
+    align-items: flex-start; /* Align items at the top */
+  }
+  
+  /* Style for the images */
+  .image-container {
+    flex-shrink: 0; /* Prevent the image from shrinking to fit */
+    margin-left: 20px; /* Add spacing between the text and image */
+    max-width: 300px; /* Limit the width of the images */
+    height: 200px; /* Set the height of the image container */
+    background-color: #f2f2f2; /* Add a background color for better visibility */
+    overflow: hidden; /* Hide any overflowing image content */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
 
 
 footer {
