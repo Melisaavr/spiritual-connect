@@ -1,46 +1,67 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Edu+SA+Beginner&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Reset default margin and padding for all elements */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
 }
 
+body {
+    line-height: 1.6;
+}
+
+/* Center the content within the viewport */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+/* Add spacing around the header */
 header {
-    background-color: #84045e;
-    color: #e69ad0;
-    padding: 10px;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.topnav {
+    padding: 20px;
     background-color: #84045e;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    font-family: cinzel, sans-serif;
 }
 
-.topnav input[type="text"] {
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    width: 300px;
-}
-
+/* Style the navigation links */
 nav {
-    background-color: #e17fb0;
+    background-color: #84045e;
     padding: 10px;
     text-align: center;
+    border-radius: 0 0 8px 8px;
 }
-
 
 nav a {
-    color: #fcf9f9;
+    color: #fff;
     text-decoration: none;
     margin: 0 10px;
+    font-size: 18px;
 
+}
+
+/* Style the sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Add spacing between the sections */
+section:not(:first-child) {
+    margin-top: 20px;
 }
 
 nav a:hover {
@@ -48,13 +69,53 @@ nav a:hover {
 }
 
 
+
+
+/* Center the content within the viewport */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    font-family: edu sa beginner;
+    
+}
+
+/* Style sections */
+section {
+    max-width: 800px;
+    margin: 20px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Add spacing between sections */
+section:not(:first-child) {
+    margin-top: 40px;
+}
+
+
+
+
 footer {
     background-color: #84045e;
     color: #f5f0f3;
     text-align: center;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 2.5rem;
 
-  }
+}
