@@ -75,8 +75,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-
-
 /* Center the content within the viewport */
 main {
     display: flex;
@@ -86,6 +84,7 @@ main {
     min-height: 100vh;
     background-color: #d89abd;
     font-family: edu sa beginner;
+    padding-top: 2em;
 
 }
 
@@ -98,8 +97,6 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-
-
 
 section h2 {
     font-size: 30px;
@@ -141,22 +138,21 @@ h2 {
 /* Style for the content container */
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     /* Two equal columns */
     gap: 20px;
     /* Gap between the columns */
-    align-items: flex-start;
+    justify-self: center;
+    align-items: center;
     /* Align items at the top */
+    margin: 0 auto;
 }
-
-
-
-
 
 /* Style for the image column */
 .image-column {
     max-width: 300px;
-    /* Limit the width of the images */
+    align-self: center;
+    margin: 0 auto;
 }
 
 .image-column img {
@@ -167,7 +163,6 @@ h2 {
 
 /* editing the classes section */
 /* styles.css */
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -243,10 +238,21 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-
 footer {
     background-color: #84045e;
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+
+@media screen and (max-width: 597px) {
+    .content {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: none;
+        align-items: center;
+    }
+
+    .image-column {
+        margin: 0 auto;
+    }
 }

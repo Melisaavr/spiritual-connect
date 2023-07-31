@@ -4,6 +4,10 @@ The Spiritual Connect website is designed to allow beginners to have an idea of 
 
 To cater to specific needs and interests, the spiritual website also enables visitors to send inquiries regarding various spiritual practices, healing modalities, and divination methods. Whether seeking guidance on tarot readings, crystal healing, or meditation techniques, users can connect with experienced practitioners who offer personalized responses to their questions. 
 
+Link to deployed website: https://melisaavr.github.io/spiritual-connect/
+
+![Alt text](assets/images/responsiveness.png)
+
 
 ## Features
 
@@ -43,26 +47,37 @@ Responsiveness: responsiveness test passed.
 
 The navigation, header and the whole website in general are easy to read and use. 
 
-## Bugs
-### Unsolved Bugs
-The contact us form does not lead to anywhere. This will be fixed as I progress with my learning. 
+### Bugs
 
 ### Solved Bugs
 Error caused due to space in between image names. This is now fixed. 
 
 The closing p tag was visible although there was not an opening p tag. This is fixed. 
 
+The images were saved with "." instead of "_" which is now fixed.
+
+
 ## Validator Testing
 HTML - No errors visible with W3C HTML validator
+![Alt text](<html validator.png>)
 
 CSS- No errors visible with W3C CSS validator (jigsaw)
+![Alt text](<css testing.png>)
 
 Accessibility - passed using lighthouse in devtools.
 ![Alt text](<assets/images/Screenshot 2023-07-31 021802.png>)
 
+### Unsolved Bugs
+I am aware that there are way too many "read me edit" pushed to github and this is not the correct way to push code. I will not repeat this again. 
+
 
 ## Deployment
+GitHub Pages were used to host the website. The following are the deployment steps:
+Go to the Settings tab in the GitHub repository.
+Click "Save" after selecting the Main Branch from the drop-down menu for the source section.
+The page will automatically reload with a thorough ribbon display to show that the deployment was successful.
 
+The [link] (https://melisaavr.github.io/spiritual-connect/) can be found here. 
 
 ## Credits
 
@@ -70,7 +85,9 @@ Accessibility - passed using lighthouse in devtools.
 Used examples from the love running projects and went back to learning and videos to expand my horizons and recap. 
 
 ### Media
-The images were all taken from pexels. 
+The images were all taken from [pexels](https://www.pexels.com/)
+Read me [guidance] (https://www.youtube.com/watch?v=a8CwpGARAsQ&ab_channel=TheGitGuild)
+Flexbox [help] (https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&ab_channel=KevinPowell)
 
 
 
