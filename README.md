@@ -27,7 +27,7 @@ Offering people a list of "how to get started" with astrology holds immense sign
 
 ### About Us
 The "About Us" section of Spiritual Connect holds great significance as it serves as the digital identity and personality of the organization or individual behind the website. This section provides a unique opportunity to establish a connection with the website's visitors by sharing the story, values, and mission of the entity. By offering insights into the background and expertise of the creators, the "About Us" section builds trust and credibility, reassuring visitors that they are dealing with genuine and knowledgeable individuals.
-![About Us](C:\Users\melis\OneDrive\Desktop\spiritual-connect\about us_png)
+[Title](<about us_png>)
 
 ### Classes table
 The inclusion of a table with "events, date, and time" on a website holds tremendous significance as it provides visitors with a clear and organized overview of upcoming activities or important occasions. The table format allows for easy comprehension and quick reference, enabling users to swiftly identify relevant events, their respective dates, and scheduled times.
