@@ -47,7 +47,9 @@ The closing p tag was visible although there was not an opening p tag. This is f
 
 ## Validator Testing
 HTML - No errors visible with W3C HTML validator
+
 CSS- No errors visible with W3C CSS validator (jigsaw)
+
 Accessibility - passed using lighthouse in devtools.
 ![Alt text](<assets/images/Screenshot 2023-07-31 021802.png>)
 
