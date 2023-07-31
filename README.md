@@ -64,7 +64,13 @@ Accessibility - passed using lighthouse in devtools.
 ## Deployment
 
 
+## Credits
 
+### Content
+Used examples from the love running projects and went back to learning and videos to expand my horizons and recap. 
+
+### Media
+The images were all taken from pexels. 
 
 
 
