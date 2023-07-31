@@ -1,3 +1,5 @@
+
+![Alt text](<assets/images/Screenshot 2023-07-31 022346.png>)
 # Spiritual Connect
 The Spiritual Connect website is designed to allow beginners to have an idea of what astrology is and how to find their way around it. It offers a comprehensive platform that aims to guide individuals on their spiritual journey and provide valuable resources to explore mystical and esoteric topics. 
 
@@ -52,6 +54,10 @@ CSS- No errors visible with W3C CSS validator (jigsaw)
 
 Accessibility - passed using lighthouse in devtools.
 ![Alt text](<assets/images/Screenshot 2023-07-31 021802.png>)
+
+
+## Deployment
+
 
 
 
